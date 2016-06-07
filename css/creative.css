@@ -3,6 +3,7 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 html,
 body {
@@ -10,7 +11,7 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Noto Sans KR', 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
   border-color: #f05f40;
@@ -39,7 +40,7 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -193,7 +194,8 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
   header .header-content .header-content-inner p {
-    font-size: 18px;
+    font-weight: normal;
+    font-size: 20px;
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;

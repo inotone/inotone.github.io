@@ -21,6 +21,12 @@ hr {
 hr.light {
   border-color: white;
 }
+hr.line {
+  max-width: 90%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(240, 95, 64, 0), rgba(240, 95, 64, 0.75), rgba(240, 95, 64, 0));
+}
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -30,6 +36,11 @@ a {
 a:hover,
 a:focus {
   color: #eb3812;
+}
+.bg-primary p a:link,
+.bg-primary p a:hover,
+.bg-primary p a:focus {
+  color: #ffffff;
 }
 h1,
 h2,

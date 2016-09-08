@@ -438,6 +438,10 @@ body {
   text-align: center;
 }
 
+#solution img, #happytrust img, #happyo2o img, #happyads img {
+  max-width: 100% !important;
+  height: auto;
+}
 
 #about {
   background-color: #ebeff2;
@@ -450,4 +454,18 @@ body {
   margin: 0 0 20px;
   border-left: 5px solid gray;
 }
+
+.google-maps {
+  position:relative;
+  padding-bottom: 75%;
+  height:0;
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
 }

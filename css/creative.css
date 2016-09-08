@@ -68,6 +68,7 @@ p {
 section {
   padding: 100px 0;
 }
+
 aside {
   padding: 50px 0;
 }
@@ -416,4 +417,37 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+
+#brand {
+  height:356px;
+  background-color: #ebeff2;
+  color: #36474f;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  text-align: center;
+}
+
+#brand h2, #brand h3, #brand h4 {
+  color: #36474f;
+}
+
+#solution, #happytrust, #happyo2o, #happyads {
+  padding-top:45px;
+  padding-bottom:45px;
+  text-align: center;
+}
+
+
+#about {
+  background-color: #ebeff2;
+  color: #36474f;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+#about blockquote {
+  margin: 0 0 20px;
+  border-left: 5px solid gray;
+}
 }

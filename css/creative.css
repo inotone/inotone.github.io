@@ -65,8 +65,15 @@ p {
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
+
 section {
-  padding: 45px 0;
+  padding: 55px 0;
+}
+
+@media only screen and (max-width: 767px) {
+  section {
+    padding: 45px 0;
+  }
 }
 
 aside {
@@ -423,9 +430,23 @@ body {
   height:356px;
   background-color: #ebeff2;
   color: #36474f;
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 55px;
+  padding-bottom: 55px;
   text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  #brand {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-size: 15px;
+  }
+  #ci {
+    margin-top: 10px;
+  }
+  #brand h3, #brand h4 {
+    font-size: 15px;
+  }
 }
 
 #brand h2, #brand h3, #brand h4 {
@@ -433,9 +454,16 @@ body {
 }
 
 #value, #service, #happyo2o, #happyads {
-  padding-top:45px;
-  padding-bottom:45px;
+  padding-top:55px;
+  padding-bottom:55px;
   text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  #value, #service, #happyo2o, #happyads {
+    padding-top: 45px;
+    padding-bottom:45px;
+  }
 }
 
 #value img, #service img, #happyo2o img, #happyads img {
@@ -444,6 +472,8 @@ body {
 }
 
 #about {
+  padding-top: 55px;
+  padding-bottom: 55px;
   background-color: #ebeff2;
   color: #36474f;
 }
@@ -451,6 +481,33 @@ body {
 #about blockquote {
   margin: 0 0 20px;
   border-left: 5px solid gray;
+}
+
+
+@media only screen and (max-width: 767px) {
+  #about {
+    padding-top: 45px;
+    padding-bottom: 15px;
+    font-size: 15px;
+  }
+
+  #about blockquote, #about p {
+    font-size: 15px;
+  }
+  
+  .p1 {
+    padding: 0 15px;
+  }
+
+  #contact {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-size: 15px;
+  }
+
+  #contact p {
+    font-size: 15px;
+  }
 }
 
 .google-maps {

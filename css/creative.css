@@ -66,7 +66,7 @@ p {
   color: rgba(255, 255, 255, 0.7);
 }
 section {
-  padding: 100px 0;
+  padding: 45px 0;
 }
 
 aside {
@@ -432,13 +432,13 @@ body {
   color: #36474f;
 }
 
-#solution, #happytrust, #happyo2o, #happyads {
+#value, #service, #happyo2o, #happyads {
   padding-top:45px;
   padding-bottom:45px;
   text-align: center;
 }
 
-#solution img, #happytrust img, #happyo2o img, #happyads img {
+#value img, #service img, #happyo2o img, #happyads img {
   max-width: 100% !important;
   height: auto;
 }
@@ -446,8 +446,6 @@ body {
 #about {
   background-color: #ebeff2;
   color: #36474f;
-  padding-top: 45px;
-  padding-bottom: 45px;
 }
 
 #about blockquote {
